@@ -19,6 +19,7 @@ class GooglePlaces {
   Future findPlace(BuildContext context) async {
     Prediction p = await showGooglePlacesAutocomplete(
       context: context,
+      components: [Component(Component.country, "ng")],
       location: location,
       apiKey: "AIzaSyAPV3djPp_HceZIbgK4M4jRadHA-d08ECg",
       onError: (res) {
