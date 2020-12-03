@@ -1,6 +1,6 @@
 # polyline
 
-A new Flutter application.
+Working polyline deprecated even
 
 ## Getting Started
 
